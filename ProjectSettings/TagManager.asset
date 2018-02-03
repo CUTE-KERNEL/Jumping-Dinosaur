@@ -3,7 +3,8 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - TeaRex
   layers:
   - Default
   - TransparentFX
@@ -40,4 +41,22 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: Background
+    uniqueID: 3690781647
+    locked: 0
+  - name: BackgoundDeco
+    uniqueID: 1986200729
+    locked: 0
+  - name: Foreground
+    uniqueID: 816904603
+    locked: 0
+  - name: ForegroundDeco
+    uniqueID: 1132807149
+    locked: 0
+  - name: Player
+    uniqueID: 1742246479
+    locked: 0
+  - name: Particles
+    uniqueID: 2174933603
     locked: 0
