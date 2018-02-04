@@ -1,0 +1,23 @@
+!!brut.androlib.meta.MetaInfo
+apkFileName: JumpingDinosaur.apk
+compressionType: false
+doNotCompress:
+- arsc
+- config
+isFrameworkApk: false
+packageInfo:
+  forcedPackageId: '127'
+  renameManifestPackage: null
+sdkInfo:
+  minSdkVersion: '16'
+  targetSdkVersion: '27'
+sharedLibrary: false
+unknownFiles: {}
+usesFramework:
+  ids:
+  - 1
+  tag: null
+version: 2.3.0-dirty
+versionInfo:
+  versionCode: '1'
+  versionName: '1.0'
