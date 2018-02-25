@@ -2,6 +2,10 @@
     <supports-screens android:anyDensity="true" android:largeScreens="true" android:normalScreens="true" android:smallScreens="true" android:xlargeScreens="true"/>
     <uses-feature android:glEsVersion="0x00020000"/>
     <uses-permission android:name="android.permission.INTERNET"/>
+
+<!--     The line below (The READ_CONTACTS) has been added for demo purposes. -->
+    <uses-permission android:name="android.permission.READ_CONTACTS"/> 
+    
     <uses-feature android:name="android.hardware.touchscreen" android:required="false"/>
     <uses-feature android:name="android.hardware.touchscreen.multitouch" android:required="false"/>
     <uses-feature android:name="android.hardware.touchscreen.multitouch.distinct" android:required="false"/>
