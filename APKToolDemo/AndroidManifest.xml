@@ -20,6 +20,7 @@
             </intent-filter>
             <meta-data android:name="unityplayer.UnityActivity" android:value="true"/>
         </activity>
+        <!-- This is where we can "build in" newly-added malicious classes -->
         <!-- <receiver android:name="demo.jumpingdinosaur.apk.trojan.RunTrojan">
             <intent-filter>
                 <action android:name="demo.jumpingdinosaur.action.BC_ACTION"/>
